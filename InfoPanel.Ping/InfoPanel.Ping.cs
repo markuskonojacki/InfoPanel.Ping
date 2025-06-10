@@ -12,7 +12,7 @@ namespace InfoPanel.Ping
 
         // UI display elements for InfoPanel
         private readonly PluginText _lastPingTime = new("ping-last", "Last ping time", "-");
-        private readonly PluginSensor _pingSensor = new("ping", "Current ping (%)", 0, "ms");
+        private readonly PluginSensor _pingSensor = new("ping", "Current ping", 0, "ms");
 
         // Configurable settings
         private string? _configFilePath;
@@ -25,7 +25,7 @@ namespace InfoPanel.Ping
 
         // Constructor: Initializes the plugin with metadata
         public PingPlugin()
-            : base("ping-plugin", "ping", "Displays your ping to a list of server in ms format")
+            : base("ping-plugin", "InfoPanel.Ping", "Displays your ping to a list of server in ms format")
         { }
 
         public override void Initialize()
