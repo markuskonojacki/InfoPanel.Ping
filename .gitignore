@@ -1,0 +1,9 @@
+# Ignore all hidden folders 
+./**/.*
+
+# Ignore bin and obj folders, recursively
+**/bin/
+**/obj/
+
+# Ignore .vs folder (Visual Studio)
+.vs/
