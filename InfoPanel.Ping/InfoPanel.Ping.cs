@@ -25,7 +25,7 @@ namespace InfoPanel.Ping
 
         // Constructor: Initializes the plugin with metadata
         public PingPlugin()
-            : base("ping-plugin", "InfoPanel.Ping", "Displays your ping to a list of server in ms format")
+            : base("ping-plugin", "InfoPanel.Ping", "Displays your average ping to a list of servers in ms")
         { }
 
         public override void Initialize()
