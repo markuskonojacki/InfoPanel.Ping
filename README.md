@@ -6,7 +6,7 @@ A plugin for InfoPanel to display the average ping to a list of servers.
 Follow these steps to get the ping plugin working with InfoPanel:
 
 1. **Download the plugin**:
-   - Download the latest release \*.zip file (`PingPlugin-vX.X.X.zip`) from the [GitHub Releases page](https://github.com/markuskonojacki/InfoPanel.Ping/releases).
+   - Download the latest release \*.zip file (`InfoPanel.Ping-vX.X.X.zip`) from the [GitHub Releases page](https://github.com/markuskonojacki/InfoPanel.Ping/releases).
 
 2. **Import the Plugin into InfoPanel**:
    - Open the InfoPanel app.
